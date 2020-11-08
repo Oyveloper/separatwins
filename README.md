@@ -5,4 +5,4 @@ This is a really stupid site that lets you upload some images and then combines 
 I mainly built this to get some experience with Typescript and deploying with firebase.
 
 ## Check it out
-If you want to test this technologi marvel in action go to [separatwins.web.app](separatwins.web.app).
+If you want to test this technologi marvel in action go to [separatwins.web.app](https://separatwins.web.app).
