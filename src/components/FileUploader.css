@@ -1,0 +1,36 @@
+#DropArea {
+    width: 100%;
+    height: 300px;
+    border: 1px dashed gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.FileUploader {
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.FileUploaderContainer {
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.FileUploader .file-list {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.file-list li {
+    text-align: left;
+}
