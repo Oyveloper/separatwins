@@ -28,7 +28,7 @@
 
 .FileUploader .file-list {
     width: 100%;
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 .file-list li {

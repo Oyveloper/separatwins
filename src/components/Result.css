@@ -1,0 +1,16 @@
+.ResultPage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ResultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+button {
+    margin-top: 10px;
+}
