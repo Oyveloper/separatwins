@@ -11,14 +11,14 @@ export default function Result({
   files: File[];
   goBack: () => void;
 }) {
-  const fileList = files === undefined ? [] : files;
   const canvas = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
+    const fileList = files === undefined ? [] : files;
     if (canvas.current !== null) {
       mergeImages(fileList, canvas.current);
     }
-  }, [canvas, fileList]);
+  }, [canvas, files]);
 
   return (
     <div className="ResultPage">
