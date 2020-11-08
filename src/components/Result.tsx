@@ -18,7 +18,7 @@ export default function Result({
     if (canvas.current !== null) {
       mergeImages(fileList, canvas.current);
     }
-  }, [canvas]);
+  }, [canvas, fileList]);
 
   return (
     <div className="ResultPage">
